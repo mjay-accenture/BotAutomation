@@ -20,7 +20,7 @@ public class BaseTest {
 	@BeforeClass
 	public void setup()
 	{
-		logger=Logger.getLogger("BOT Automation Rest API");
+		logger=Logger.getLogger("BOT Automation Rest API Testing");
 		PropertyConfigurator.configure("Log4j.properties");
 		logger.setLevel(Level.DEBUG);
 	}
